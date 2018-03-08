@@ -100,14 +100,6 @@ function addTable(content, tabCount){
 //function to delete the specified row of the matrixCalculation
 function deleteRow(mat, rIndex)
 {
-  mat = mat.slice(0); // make copy
   mat.splice(rIndex, 1);
   return mat;
-}
-
-// function addText(text, tabCount)
-// {
-//   var  newDiv = document.createElement('div');
-//   var textnode = newDiv.currentDiv
-//   var currentDiv = document.getElementById('Table' + (tabCount-1))
-// }
+}//End:deleteRow
