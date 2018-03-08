@@ -31,7 +31,6 @@ function matrixCalculation(){
     tempMat = [[]];
 
     //Rotate the matrix counter-clockwise
-    if(mat[0] !== undefined){
       for(var i = mat[0].length - 1; i >= 0 ; i--)
       {
         tempMat[mat[0].length - i - 1] = [];
@@ -41,7 +40,6 @@ function matrixCalculation(){
         }
       }
 
-    }
 
     mat = tempMat;
 
